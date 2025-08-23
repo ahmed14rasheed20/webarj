@@ -102,7 +102,7 @@ body {
    }
    .project p
    {
-    background-color: cornflowerblue;border-radius: 4px;
+   border-radius: 4px;
    }
    .project p p
    {
@@ -212,3 +212,5 @@ body {
   margin-top: 3%;
   text-align: center;
   }
+
+  

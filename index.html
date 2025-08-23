@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>ARJ</title>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <hr>
+  <div class="profile-card">
+    <img src="3.jpg" alt="Profile Picture">
+    <h1>Ahmad Rasheed Jamhour</h1>
+    <h2>About Me</h2>
+    <p style="text-align: center;">
+      I'm a cybersecurity student with a passion for web development. <br>
+      I enjoy building clean, user-friendly websites and exploring how to make technology safer. <br>
+      <b>My goal</b> is to combine creativity with technical skills to deliver effective solutions.
+    </p>
+
+    <a href="#contact" class="btn btn-primary">Contact Me</a>
+    <a href="C:\Users\hp\Desktop\web devlopment\CV1 - 2025.pdf" class="btn btn-outline">Download CV</a>
+  </div>
+  
+  <div  style="width: 20%;margin-left: 40%;text-align: center;" ><h1>PROJECTS</h1></div>
+
+  <div class="project-card">
+    <div class="project">
+      <p style="background-color: cornflowerblue;border-radius: 4px;"><b>Multi-purpose IoT Security Guard Edge Node</b></p>
+      <p style="font-size: 15px;">Our IoT Guard Edge Node (IoT-GEN) is a compact, cost-effective device that emulates a defensive edge against wireless and RF attacks, 
+         providing real-time signal analysis and practical testing. <br> It allows students, professionals,
+         and researchers to explore vulnerabilities and develop robust cybersecurity strategies without expensive equipment. 
+      </p>
+    </div>
+
+    <div class="project">
+      <p style="background-color: cornflowerblue;border-radius: 4px;"><b>Vulnerability Assessment and Penetration Testing</b></p>
+      <p style="font-size: 15px;">Building a Vulnerable Server involves creating a controlled environment with intentional security flaws, allowing cybersecurity trainees to practice finding and exploiting vulnerabilities. 
+       <br> It helps professionals learn defensive techniques and improve system security. </p>
+    </div>
+    <div class="project">
+      <p style="background-color: cornflowerblue;border-radius: 4px;"><b>JAWAL_TTU Website</b></p>
+      <p style="font-size: 15px;">A website displaying the missions of the Jawal, the graduation ceremony, the administration, and the members was approved by the Deanship of Student Affairs. I used Google Sites Web Application.
+        <br><br><br></p>
+    </div>
+  </div>
+
+  <div style="width: 20%;margin-left: 40%;text-align: center;"><h1>Contact Me</h1></div>
+   
+  <section id="contact">
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="url">Website/Portfolio:</label>
+        <input type="url" id="url" name="url" placeholder="https://yourwebsite.com" />
+
+        <label for="tel">Phone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="+962123456789" pattern="\+?[0-9]{7,15}" />
+
+        <label for="meeting">Preferred Meeting Time:</label>
+        <input type="datetime-local" id="meeting" name="meeting" />
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" />
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+          <option value="general">General Inquiry</option>
+          <option value="project">Project Collaboration</option>
+          <option value="career">Career Advice</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Details</legend>
+
+        <label>Preferred Contact Method:</label>
+        <div class="inline-options">
+          <label><input type="radio" name="contact_method" value="email" required /> Email</label>
+          <label><input type="radio" name="contact_method" value="phone" /> Phone</label>
+        </div>
+
+        <label for="subject">Subject:</label>
+        <input list="subjects" id="subject" name="subject" placeholder="Choose or type..." />
+        <datalist id="subjects">
+          <option value="Web Development">
+          <option value="Cybersecurity">
+          <option value="Collaboration">
+        </datalist>
+
+        <label for="priority">Priority:</label>
+        <input type="range" id="priority" name="priority" min="1" max="5" value="3">
+        <output name="output" for="priority">3</output>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </fieldset>
+
+      <button type="submit" class="btn">Send</button>
+      <button type="reset" class="btn">Reset</button>
+    </form>
+  </section>
+
+<footer>
+    <p>&copy; 2025 Ahmad Rasheed Jamhour . All rights reserved. <br></p>
+    <p>&#9831; &#9828; &#9825; &#9826;</p>
+  </footer>
+
+
+</body>
+</html>
